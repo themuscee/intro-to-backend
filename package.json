@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial to backend",
+  "homepage": "https://github.com/themuscee/Intro-To-Web-Dev#readme",
+  "bugs": {
+    "url": "https://github.com/themuscee/Intro-To-Web-Dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themuscee/Intro-To-Web-Dev.git"
+  },
+  "license": "ISC",
+  "author": "Ocharo",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "nodemon": "^3.1.14"
+  }
+}
